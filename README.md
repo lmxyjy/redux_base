@@ -24,4 +24,10 @@
 
 ![webpack图](https://github.com/lmxyjy/redux_base/blob/master/img/2.png)
 
-> 简单使用，参见demo01
+**示例demo**
+
+> 使用redux做一个todolist demo，详见redux-todolist-V1。
+> 
+- 可以对输入框的内容进行修改
+- 点击按钮，将输入框中的内容添加到下方的列表当中
+- 点击对应的列表选项可以实现删除
