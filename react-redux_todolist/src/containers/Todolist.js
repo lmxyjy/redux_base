@@ -4,7 +4,6 @@ import TodolistUI from '../components/Todolist'
 import {changeInputAction,addItemAction,deleteItemAction} from '../store/actionOperation'
 
 export class Todolist extends Component {
-
     render() {
         let {
             inputValue,
@@ -32,7 +31,6 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = dispatch=> ({
     changeInput:(e)=>{
-        console.log("11111======",e.target.value)
         dispatch(changeInputAction(e.target.value))
     },
     addItem:()=>{
